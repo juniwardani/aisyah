@@ -1,0 +1,132 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rumah Tahfidz Saijaan"AISYAH"</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #8a0f15;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+    .navbar-brand img {
+      height: 40px;
+      margin-right: 10px;
+    }
+    .navbar {
+      background-color: var(--primary-color);
+    }
+    .navbar-dark .navbar-nav .nav-link {
+      color: #fff;
+    }
+    .container {
+      margin-top: 80px;
+    }
+    h1, h3 {
+      color: var(--primary-color);
+    }
+    #search-input {
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      margin-bottom: 1rem;
+      color: #212529;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 0.75rem;
+      vertical-align: top;
+      border-top: 1px solid #dee2e6;
+    }
+    thead th {
+      vertical-align: bottom;
+      border-bottom: 2px solid #dee2e6;
+      background-color: var(--primary-color);
+      color: white;
+    }
+    .footer {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.jpg" alt="Logo Rumah Tahfidz Saijaan" width="40" height="40" class="d-inline-block align-top">
+      Rumah Tahfidz Saijaan "AISYAH"
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tentang Kami</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Program</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <h1 style="text-align: center;"><strong>DATA NOMOR INFAQ SANTRI</strong></h1>
+  <h3 style="text-align: center;">RUMAH TAHFIDZ SAIJAAN "AISYAH" <br>TAHUN 2024</h3>
+  <input type="text" id="search-input" class="form-control" placeholder="Cari nama siswa...">
+  
+  <table class="table table-striped" style="width: 100%; border-collapse: collapse; text-align: center;">
+    <thead>
+      <tr style="background-color: #007BFF; color: white;">
+        <th style="padding: 10px; border: 1px solid #ddd;">Nomor Infaq</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Nama Santri</th>
+      </tr>
+    </thead>
+    <tbody id="table-body" class="hidden">
+      <!-- Data siswa akan ditambahkan di sini -->
+    </tbody>
+  </table>  
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h5>Rumah Tahfidz Saijaan "AISYAH"</h5>
+        <p>Jalan Raya Stagen<br>Kec. Pulau Laut Utara</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <h5>Hubungi Kami</h5>
+        <p>Email: rumahtahfidzsaijaan@gmail.com<br>Telp: 0852 4846 2707 (Ustadz Abdur Rahim)</p>
+      </div>
+    </div>
+    <hr>
+    <div class="text-center">
+      <p>Design By: Juni Wardani &copy; 2024 Rumah Tahfidz Saijaan. Hak Cipta Dilindungi.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="img/script.js"></script>
+
+</body>
+</html>
